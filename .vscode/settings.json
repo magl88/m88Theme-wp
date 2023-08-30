@@ -1,0 +1,5 @@
+{
+  // Path to WordPress project in lockal
+  "intelephense.environment.documentRoot": "D:\\OpenServer\\domains\\gulp-wp.loc\\",
+  "intelephense.environment.includePaths": ["D:\\OpenServer\\domains\\gulp-wp.loc\\"]
+}
