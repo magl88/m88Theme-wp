@@ -1,0 +1,50 @@
+a {
+  transition: color 0.2s ease;
+}
+svg {
+  transition: fill 0.2s ease;
+}
+//===========================================
+p {
+  margin-top: 10px;
+  &:first-child {
+    margin-top: 0;
+  }
+}
+//===========================================
+::-webkit-input-placeholder,
+::-moz-placeholder,
+:-ms-input-placeholder,
+:-moz-placeholder,
+:-moz-placeholder,
+::placeholder {
+  color: var(--default-placeholder-color);
+}
+//===========================================
+body {
+  font-family: var(--body-font-family);
+  font-size: var(--body-font-size);
+  line-height: var(--body-line-height);
+  color: var(--body-color);
+  background-color: var(--body-background-color);
+}
+//===========================================
+.container {
+  margin: 0 auto;
+  padding: var(--con-padding);
+  min-width: var(--min-width);
+  max-width: var(--max-width);
+}
+.wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  position: relative;
+
+  & > main {
+    flex: 1;
+  }
+}
+//===========================================
