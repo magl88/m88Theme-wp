@@ -1,0 +1,62 @@
+{
+  "name": "m88theme-wp",
+  "version": "1.0.0",
+  "description": "Theme for WordPress, with Gulp builder from Magl88",
+  "author": "Magl88",
+  "license": "ISC",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "gulp",
+    "dev": "gulp dev",
+    "build": "gulp build",
+    "build:min": "gulp buildMin",
+    "build:img": "gulp buildIMG",
+    "prod": "gulp prod",
+    "clear:assets": "gulp clearAssets",
+    "clear:build": "gulp clearBuild",
+    "clear:prod": "gulp clearProd",
+    "clear:ftp": "gulp clearFTP",
+    "ftp": "gulp ftp",
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "soon"
+  },
+  "keywords": [
+    "gulp",
+    "wordpress"
+  ],
+  "devDependencies": {
+    "@cedx/php-minifier": "^1.0.2",
+    "browser-sync": "^2.29.3",
+    "del": "^7.0.0",
+    "fs": "^0.0.1-security",
+    "get-folder-size": "^4.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-avif": "^1.1.1",
+    "gulp-cheerio": "^1.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-clip-empty-files": "^0.1.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-group-css-media-queries": "^1.2.2",
+    "gulp-imagemin": "^8.0.0",
+    "gulp-newer": "^1.4.0",
+    "gulp-notify": "^4.0.0",
+    "gulp-remove-empty-lines": "^0.1.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-replace": "^1.1.4",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-strip-comments": "^2.6.0",
+    "gulp-svg-sprite": "^2.0.3",
+    "gulp-svgmin": "^4.1.0",
+    "gulp-tap": "^2.0.0",
+    "gulp-uglify": "^3.0.2",
+    "gulp-webp": "^4.0.1",
+    "sass": "^1.62.0",
+    "vinyl-ftp": "^0.6.1"
+  }
+}
