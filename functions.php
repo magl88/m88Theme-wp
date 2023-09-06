@@ -1,9 +1,10 @@
 <?php
-// include 'inc/functions/functionName.php';
-// require get_template_directory() . '/inc/add_ajax.php';
-require get_template_directory() . '/inc/functions/clear.php';
-require get_template_directory() . '/inc/functions/add-js.php';
-require get_template_directory() . '/inc/functions/add-styles.php';
-require get_template_directory() . '/inc/functions/replaces-query-version.php';
-require get_template_directory() . '/inc/functions/add-menu.php';
+get_template_part('/inc/functions/clear');
+get_template_part('/inc/functions/add-js');
+get_template_part('/inc/functions/add-styles');
+get_template_part('/inc/functions/replaces-query-version');
+get_template_part('/inc/functions/add-menu');
+get_template_part('/inc/functions/add-html5');
+get_template_part('/inc/functions/add-favicon');
+get_template_part('/inc/actions/index');
 ?>
