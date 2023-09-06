@@ -34,7 +34,7 @@ export const clearPhp = () => {
     app.gulp
       .src([
         app.path.buildFolder + "**/*.php",
-        `!${app.path.buildFolder}inc/blocks/head.php`,
+        // `!${app.path.buildFolder}inc/blocks/head.php`,
         `!${app.path.buildFolder}assets`,
         `!${app.path.buildFolder}pages`,
       ])
@@ -52,7 +52,7 @@ export const clearAll = () => {
       .src([
         app.path.buildFolder + "**/*.*",
         `!${app.path.buildFolder}**/*.png`,
-        `!${app.path.buildFolder}inc/blocks/head.php`,
+        // `!${app.path.buildFolder}inc/blocks/head.php`,
         `!${app.path.buildFolder}style.css`,
         `!${app.path.buildFolder}assets`,
         `!${app.path.buildFolder}pages`,

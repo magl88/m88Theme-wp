@@ -1,5 +1,5 @@
 import gulp from "gulp";
-import { path, webServerSettings, themeName, prodFolder } from "./config/gulp-settings.js";
+import { path, webServerProxyURL, themeName, prodFolder } from "./config/gulp-settings.js";
 
 // set global const app
 global.app = {
@@ -10,7 +10,7 @@ global.app = {
   isFontsReW: process.argv.includes("--rewrite"),
   gulp: gulp,
   path: path,
-  webServerSettings: webServerSettings,
+  webServerProxyURL: webServerProxyURL,
   themeName: themeName,
   prodFolder: prodFolder,
 };

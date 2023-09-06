@@ -40,16 +40,9 @@ export const path = {
 };
 
 export const configFTP = {
-  host: "",
-  user: "",
-  password: "",
   parallel: 5,
-  ftpPath: "",
 };
 
-export const webServerSettings = {
-  proxyURL: "", // local url "https://demo.loc/"
-};
-
+export const webServerProxyURL = "http://gulp-wp.loc/";
 export const themeName = "m88 Theme";
 export const prodFolder = "../m88Theme/";

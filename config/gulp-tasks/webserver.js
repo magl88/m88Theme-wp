@@ -6,7 +6,7 @@ export const webServer = () =>
   webServerCreate.init({
     logPrefix: "browserSync",
     https: true,
-    proxy: app.webServerSettings.proxyURL,
+    proxy: app.webServerProxyURL,
     // reloadDelay: 200,
     // online: true,
     // tunnel: true,
