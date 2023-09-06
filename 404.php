@@ -1,12 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
-<?php include 'inc/blocks/head.php'; ?>
+<html lang="<?php echo get_bloginfo('language');?>">
 
-<body <?php body_class() ?>>
+<head>
+  <?php wp_head(); ?>
+</head>
+
+<body <?php body_class('404') ?>>
   <?php wp_body_open(); ?>
   <?php get_header(); ?>
   <main>
-    <?php get_template_part('sections/content'); ?>
+    <?php get_template_part('inc/sections/content'); ?>
   </main>
   <?php get_footer(); ?>
   <?php wp_footer(); ?>
