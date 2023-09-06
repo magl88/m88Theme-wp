@@ -92,6 +92,7 @@ out
 dist
 build
 assets/
+css/
 
 # Gatsby files
 .cache/
